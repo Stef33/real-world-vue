@@ -55,7 +55,7 @@ const routes = [
   },
   {
     path: '*',
-    redirect: { name: '404', params: { resource: 'event' } }
+    redirect: { name: '404', params: { resource: 'page' } }
   }
 ]
 

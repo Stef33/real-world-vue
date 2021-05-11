@@ -287,6 +287,20 @@
       "date": "2021-05-20T13:39:00.000Z",
       "time": "12:00",
       "attendees": []
+    },
+    {
+      "id": 1668118,
+      "category": "animal welfare",
+      "organizer": {
+        "id": "abc123",
+        "name": "Adam Jahr"
+      },
+      "title": "puppy submit",
+      "description": "",
+      "location": "",
+      "date": "",
+      "time": "",
+      "attendees": []
     }
   ]
 }
