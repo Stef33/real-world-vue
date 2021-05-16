@@ -82,6 +82,7 @@
         label="Select a time"
         :options="times"
         v-model="event.time"
+        class="field"
         :class="{ error: $v.event.time.$error }"
         @blur="$v.event.time.$touch()"
       />
@@ -119,9 +120,9 @@ export default {
       times.push(i + ':00')
     }
     return {
-      event: this.createFreshEventObject(),
       times,
-      categories: this.$store.state.categories
+      categories: this.$store.state.categories,
+      event: this.createFreshEventObject()
     }
   },
   validations: {
